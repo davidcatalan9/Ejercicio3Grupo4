@@ -131,13 +131,12 @@ function multiplicarPorDos(Matriz) {
     return Matriz.map((num) => num * 2);
 }
 
-// Ejemplos de uso
-console.log(multiplicarPorDos([2, 3])); // [4, 6]
-console.log(multiplicarPorDos([5])); // [10]
-console.log(multiplicarPorDos([])); // "No podemos calcular elementos vacíos."
-console.log(multiplicarPorDos([1, 2, 3])); // "Solo se admiten dos números."
-console.log(multiplicarPorDos([2, 'a'])); // "Ambos elementos deben ser números."
-console.log(multiplicarPorDos('notArray')); // "Debes ingresar un Matriz con dos números."
+alert('multiplicarPorDos (2 , 3) :  ' + multiplicarPorDos([2, 3])); // [4, 6]
+alert('multiplicarPorDos (5)  : ' + multiplicarPorDos([5])); // [10]
+alert(' vacio !!' + multiplicarPorDos([])); // "."
+alert(' 1,2,3 :  ' + multiplicarPorDos([1, 2, 3])); // "."
+alert('(2, a ) : ' + multiplicarPorDos([2, 'a'])); // ""
+alert(' no array !!!' + multiplicarPorDos('notArray')); // "."
 
 //Pregunta 5
 
